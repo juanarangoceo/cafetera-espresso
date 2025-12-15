@@ -8,6 +8,7 @@ import Testimonials from './components/sections/Testimonials';
 import Support from './components/sections/Support';
 import Checkout from './components/sections/Checkout';
 import Legal from './components/sections/Legal';
+import Chatbot from './components/Chatbot';
 import { ViewState } from './types';
 import { ArrowUp } from 'lucide-react';
 
@@ -115,6 +116,9 @@ const App: React.FC = () => {
       >
         <ArrowUp size={24} />
       </button>
+
+      {/* Chatbot */}
+      <Chatbot onCheckout={() => setCurrentView('checkout')} />
     </div>
   );
 };

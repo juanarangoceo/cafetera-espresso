@@ -28,6 +28,7 @@ Crea un archivo `.env` en la raíz del proyecto con el siguiente contenido:
 ```env
 VITE_SHOPIFY_STORE_DOMAIN=tu-tienda.myshopify.com
 VITE_SHOPIFY_STOREFRONT_ACCESS_TOKEN=tu-storefront-access-token
+VITE_GEMINI_API_KEY=tu-gemini-api-key
 ```
 
 **Importante:** 
